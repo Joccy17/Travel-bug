@@ -107,98 +107,6 @@ h1{
 .container img {
     width: 100%;
 }
-.Video {
-    position: relative;
-    margin-top:15% ;
-    
-}
-
-.Video img{
-    width: 100%;
-}
-.Video .innerImage img{
-    position: absolute;
-    width: 40%;
-    top: 30%;
-    left: 30%;
-}
-h5{
-    color: white;
-}
-.Video .caption {
-    position: absolute;
-    top: 7%;
-    width: 100%;
-    text-align: center;
-}
-
-#wavywhite{
-    width: 2vw;
-}
-.Video .play img{
-    width: 3vw;
-    position: absolute;
-    top: 52%;
-    left: 48%;
-}
-.subscribe {
-    position: relative;
-}
-.subscribe .shade{
-    position: absolute;
-    height: 99%;
-    width: 100%;
-    top: 0%;
-    background-color:  rgba(59, 39, 84,0.6);
-    
-}
-.subscribe p{
-    position: absolute;
-    top: 40%;
-    left: 48%;
-}
-.subscribe img{
-    width: 100%;
-}
-.text::placeholder {
-    color: white;
-}
-
-
-.subscribe .sub-button input {
-    
-    padding: 1% 60% 0.6% 10%;
-    background-color: inherit;
-    border-radius: 23px;
-    color: white;
-    border: white;
-    font: message-box;
-    border-style: solid;
-}
-.map {
-    position: relative;
-    width: 100%;
-    z-index: 3;
-}
-.map img {
-    width: 100%;
-}
-
-
-.sub-button{
-    display:flex;
-    gap:3%;
-    position: absolute;
-    z-index: 3;
-    left: 31%;
-    top: 58%;
-}
-.sub-button button{
-    padding:5%;
-    border-radius: 17px;
-    border:none;
-    color: #754ace;
-}
 .footer{
     display:flex;
     justify-content: space-around;
@@ -206,7 +114,7 @@ h5{
 }
 .foot{
     background-color: black;
-
+    margin-top: 8%;
 }
 .text-input {
     padding: 9px;
@@ -245,11 +153,4 @@ h5{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.8;
-}
-
-@media screen and (max-width:650px){
-    
-    .subscribe .sub-button input {
-        padding: 1% 1% 0.6% 10%;
-    }
 }

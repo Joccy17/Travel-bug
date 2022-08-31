@@ -27,9 +27,12 @@
 .navigation .navbar .Home {
     color:rgb(110 53 180);
 }
-
+.Homepage {
+    position: relative;
+}
 .Homepage img {
     width: 100%;
+    margin-bottom: -1%;
 }
 .footer{
     display:flex;
